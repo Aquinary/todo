@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1669935171441,
@@ -16,6 +16,14 @@
                 {
                     "date": 1669936202965,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n import './TodoList.css'\n \n export default function TodoList() {\n   return (\n-    <div>TodoList</div>\n+    <div className='todolist'>TodoList</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1669936410490,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,11 @@\n import React from 'react'\n+import TodoItem from './TodoItem/TodoItem'\n import './TodoList.css'\n \n export default function TodoList() {\n   return (\n-    <div className='todolist'>TodoList</div>\n+    <div className='todolist'>\n+      <TodoItem></TodoItem>\n+    </div>\n   )\n }\n"
+                },
+                {
+                    "date": 1669936496325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,11 @@\n \n export default function TodoList() {\n   return (\n     <div className='todolist'>\n+      <TodoItem name=\"Лист 1\"></TodoItem>\n       <TodoItem></TodoItem>\n+      <TodoItem></TodoItem>\n+      <TodoItem></TodoItem>\n     </div>\n   )\n }\n"
                 }
             ],
             "date": 1669935171441,

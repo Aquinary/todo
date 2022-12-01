@@ -1,7 +1,7 @@
 import React from 'react'
 import './TodoItem'
-export default function TodoItem() {
+export default function TodoItem(props) {
   return (
-    <div className='todoitem'>TodoItem</div>
+    <div className='todoitem'> { props.name } </div>
   )
 }
