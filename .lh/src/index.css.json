@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1669935291622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669935339069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,7 @@\n   height: 100vh;\n   min-height: 500px\n }\n \n-.context {\n+.content {\n   display: flex;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669935644580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,16 @@\n   margin: 0;\n   padding: 0;\n }\n \n+html, body {\n+  height: 100%;\n+}\n .App {\n   position: relative;\n-  height: 100vh;\n-  min-height: 500px\n+  min-height: 100%;\n }\n \n .content {\n   display: flex;\n+  padding-bottom: 90px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669935829156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,12 @@\n html, body {\n   height: 100%;\n }\n .App {\n-  position: relative;\n-  min-height: 100%;\n+  display: flex;\n+  flex-direction: column;\n+  height: 100%;\n }\n \n .content {\n-  display: flex;\n-  padding-bottom: 90px;\n+  flex: 1 0 auto;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669935845599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,7 @@\n   height: 100%;\n }\n \n .content {\n+  display: flex;\n   flex: 1 0 auto;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669936002677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n html, body {\n   height: 100%;\n }\n-.App {\n+:root, .App {\n   display: flex;\n   flex-direction: column;\n   height: 100%;\n }\n"
+                },
+                {
+                    "date": 1669936014747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n html, body {\n   height: 100%;\n }\n-:root, .App {\n+#root, .App {\n   display: flex;\n   flex-direction: column;\n   height: 100%;\n }\n"
+                }
+            ],
+            "date": 1669935291622,
+            "name": "Commit-0",
+            "content": "* {\n  margin: 0;\n  padding: 0;\n}\n\n.App {\n  position: relative;\n  height: 100vh;\n  min-height: 500px\n}\n\n.context {\n  display: flex;\n}"
+        }
+    ]
+}

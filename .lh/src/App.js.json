@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1669935221441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669935274169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,16 @@\n import Footer from \"./components/layouts/footer/Footer\";\n import Header from \"./components/layouts/header/Header\"\n import TodoList from \"./components/TodoList/TodoList\";\n+import TodoPage from \"./components/TodoPage/TodoPage\";\n \n function App() {\n   return (\n     <div className=\"App\">\n       <Header/>\n       <div class=\"content\">\n         <TodoList></TodoList>\n+        <TodoPage></TodoPage>\n       </div>\n       <Footer/>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1669935315674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n function App() {\n   return (\n     <div className=\"App\">\n       <Header/>\n-      <div class=\"content\">\n+      <div className=\"\"=\"content\">\n         <TodoList></TodoList>\n         <TodoPage></TodoPage>\n       </div>\n       <Footer/>\n"
+                },
+                {
+                    "date": 1669935321128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n function App() {\n   return (\n     <div className=\"App\">\n       <Header/>\n-      <div className=\"\"=\"content\">\n+      <div className=\"content\">\n         <TodoList></TodoList>\n         <TodoPage></TodoPage>\n       </div>\n       <Footer/>\n"
+                }
+            ],
+            "date": 1669935221441,
+            "name": "Commit-0",
+            "content": "import Footer from \"./components/layouts/footer/Footer\";\nimport Header from \"./components/layouts/header/Header\"\nimport TodoList from \"./components/TodoList/TodoList\";\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <Header/>\n      <div class=\"content\">\n        <TodoList></TodoList>\n      </div>\n      <Footer/>\n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}
