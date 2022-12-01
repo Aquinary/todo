@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  bottom: 0px;
+  background-color: antiquewhite;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.createdBy {
+  margin-left: 10px;
+}
+
+.socialLink {
+  margin-right: 10px;
+}

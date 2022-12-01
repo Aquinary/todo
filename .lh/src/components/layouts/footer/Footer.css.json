@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/components/layouts/footer/Footer.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1669934345086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669934352023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .footer {\n   position: absolute;\n-  height: 60px;\n+  height: 40px;\n   width: 100%;\n   bottom: 0px;\n   background-color: antiquewhite;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934551891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n   height: 40px;\n   width: 100%;\n   bottom: 0px;\n   background-color: antiquewhite;\n-}\n\\ No newline at end of file\n+}\n+\n"
+                },
+                {
+                    "date": 1669934582375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,7 @@\n   bottom: 0px;\n   background-color: antiquewhite;\n }\n \n+.createdBy {\n+  \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934600190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,10 @@\n   background-color: antiquewhite;\n }\n \n .createdBy {\n+\n+}\n+\n+.socialLink {\n   \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934621161,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n .footer {\n+  display: flex;\n   position: absolute;\n   height: 40px;\n   width: 100%;\n   bottom: 0px;\n   background-color: antiquewhite;\n }\n \n .createdBy {\n-\n+  \n }\n \n .socialLink {\n-  \n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934664667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   background-color: antiquewhite;\n }\n \n .createdBy {\n-  \n+  align-items: center;\n }\n \n .socialLink {\n \n"
+                },
+                {
+                    "date": 1669934678519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   background-color: antiquewhite;\n }\n \n .createdBy {\n+  height: 100%;\n   align-items: center;\n }\n \n .socialLink {\n"
+                },
+                {
+                    "date": 1669934688638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n }\n \n .createdBy {\n   height: 100%;\n+  background-color: aqua;\n   align-items: center;\n }\n \n .socialLink {\n"
+                },
+                {
+                    "date": 1669934707375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n \n .createdBy {\n   height: 100%;\n   background-color: aqua;\n-  align-items: center;\n+  \n }\n \n .socialLink {\n-\n+ align-items: flex-end;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934768385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,11 @@\n   height: 40px;\n   width: 100%;\n   bottom: 0px;\n   background-color: antiquewhite;\n+\n+  align-items: center;\n+    justify-content: space-between;\n }\n \n .createdBy {\n   height: 100%;\n"
+                },
+                {
+                    "date": 1669934779844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,16 +6,14 @@\n   bottom: 0px;\n   background-color: antiquewhite;\n \n   align-items: center;\n-    justify-content: space-between;\n+  justify-content: space-between;\n }\n \n .createdBy {\n-  height: 100%;\n-  background-color: aqua;\n-  \n+\n }\n \n .socialLink {\n- align-items: flex-end;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934797099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,10 +10,10 @@\n   justify-content: space-between;\n }\n \n .createdBy {\n-\n+  margin-left: 10px;\n }\n \n .socialLink {\n-\n+  margin-right: 10px;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1669934345086,
+            "name": "Commit-0",
+            "content": ".footer {\n  position: absolute;\n  height: 60px;\n  width: 100%;\n  bottom: 0px;\n  background-color: antiquewhite;\n}"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/layouts/footer/Footer.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1669934484902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1669934529593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function Footer() {\n   return (\n     <div className=\"footer\">\n-      <div class=\"createBy\">Создано @aquinary</div>\n-      <div class=\"socialLink\">Ссылки на соц. сети</div>\n+      <div class=\"createBy\">Создано @aquinary, как проект для портфолио</div>\n+      <div class=\"socialLink\">ReactJS</div>\n     </div>\n   );\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934567959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function Footer() {\n   return (\n     <div className=\"footer\">\n-      <div class=\"createBy\">Создано @aquinary, как проект для портфолио</div>\n-      <div class=\"socialLink\">ReactJS</div>\n+      <div className=\"createBy\">Создано @aquinary, как проект для портфолио</div>\n+      <div className=\"socialLink\">ReactJS</div>\n     </div>\n   );\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934585889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function Footer() {\n   return (\n     <div className=\"footer\">\n-      <div className=\"createBy\">Создано @aquinary, как проект для портфолио</div>\n+      <div className=\"createdBy\">Создано @aquinary, как проект для портфолио</div>\n       <div className=\"socialLink\">ReactJS</div>\n     </div>\n   );\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934858242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function Footer() {\n   return (\n     <div className=\"footer\">\n-      <div className=\"createdBy\">Создано @aquinary, как проект для портфолио</div>\n+      <div className=\"createdBy\">Создано <a href=\"@aquinary, как проект для портфолио</div>\n       <div className=\"socialLink\">ReactJS</div>\n     </div>\n   );\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1669934928290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n export default function Footer() {\n   return (\n     <div className=\"footer\">\n-      <div className=\"createdBy\">Создано <a href=\"@aquinary, как проект для портфолио</div>\n+      <div className=\"createdBy\">Создано <a href=\"http://t.me/aquinary\">@aquinary</a>, как проект для портфолио</div>\n       <div className=\"socialLink\">ReactJS</div>\n     </div>\n   );\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1669934484902,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport \"./Footer.css\";\n\nexport default function Footer() {\n  return (\n    <div className=\"footer\">\n      <div class=\"createBy\">Создано @aquinary</div>\n      <div class=\"socialLink\">Ссылки на соц. сети</div>\n    </div>\n  );\n}"
+        }
+    ]
+}
